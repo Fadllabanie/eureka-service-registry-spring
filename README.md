@@ -1,5 +1,7 @@
 # Eureka Server Setup and Configuration
 
+![Eureka Architecture Diagram](icon1.png)
+
 ## Overview
 Eureka is a service discovery pattern implementation, where services can register themselves and discover other services by name. This documentation covers setting up a Eureka server with Spring Boot.
 
@@ -7,7 +9,7 @@ Eureka is a service discovery pattern implementation, where services can registe
 Include the following dependency in your `pom.xml` for a Maven project or in your `build.gradle` for a Gradle project:
 
 **Maven:**
-```xml
+```bash
 <dependencies>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
@@ -66,6 +68,9 @@ or for Gradle:
 ```bash
 gradle bootRun
 ```
+
+![Eureka Architecture Diagram](icon2.png)
+
 
 ## Accessing Eureka Dashboard
 Once the server is running, you can access the Eureka Dashboard by visiting `http://localhost:8761` in your web browser. This dashboard will show all registered services.
