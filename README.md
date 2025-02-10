@@ -32,7 +32,7 @@ In your `application.properties` or `application.yml`, enable the Eureka Server 
 
 **application.properties:**
 ```properties
-spring.application.name=eureka-server
+spring.application.name=services-register
 server.port=8761
 
 eureka.client.register-with-eureka=false
